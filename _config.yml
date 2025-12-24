@@ -59,6 +59,14 @@ prismjs:
 marked:
   prependRoot: true
   postAsset: true
+markdown:
+  render:
+    html: true
+    breaks: false
+    linkify: true
+    typographer: false
+  plugins:
+    - markdown-it-footnote
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
